@@ -1,0 +1,24 @@
+\begin{table}[t]
+\centering
+\caption{Paired comparison of classifier arms on identical folds (fp4), Wilcoxon signed-rank.}
+\label{tab:arms_fp4}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lrrrr}
+\toprule
+arm & auc\_arm & delta & p\_wilcoxon & verdict \\
+\midrule
+majority & 0.500 & 0.241 & 0.000 & reference better \\
+length\_rule & 0.673 & 0.068 & 0.000 & reference better \\
+edge & 0.728 & 0.012 & 0.011 & reference better \\
+hgb\_tier0 & 0.739 & 0.002 & 0.578 & no difference \\
+tier0+task & 0.739 & 0.001 & 0.411 & no difference \\
+tier0+edge & 0.740 & 0.001 & 0.672 & no difference \\
+rf\_tier0 & 0.748 & -0.008 & 0.016 & arm better \\
+task\_id\_only & 0.760 & -0.020 & 0.000 & arm better \\
+linear\_all & 0.921 & -0.180 & 0.000 & arm better \\
+tier1 & 0.921 & -0.181 & 0.000 & arm better \\
+tier0+tier1 & 0.922 & -0.181 & 0.000 & arm better \\
+\bottomrule
+\end{tabular}
+}
+\end{table}

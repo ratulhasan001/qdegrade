@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering
+\caption{Leave-one-task-out AUC (int8).}
+\label{tab:loto_int8}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lrrrrrr}
+\toprule
+arc\_easy & sst2 & arc\_challenge & gsm8k & gsm8k\_direct & arm & macro \\
+\midrule
+0.589 & 0.597 & 0.640 & 0.440 & 0.416 & tier0 & 0.537 \\
+0.789 & 0.833 & 0.722 & 0.388 & 0.522 & tier1 & 0.651 \\
+0.831 & 0.739 & 0.816 & 0.371 & 0.587 & tier0+tier1 & 0.669 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}

@@ -1,0 +1,28 @@
+\begin{table}[t]
+\centering
+\caption{Meta-classifier performance for fp4 (mean over 5$\times$5 stratified CV, 95\% CI).}
+\label{tab:main_fp4}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lrrrr}
+\toprule
+arm & auc & auc\_ci & ap & brier \\
+\midrule
+tier0+tier1\_tuned & 0.926 & 0.009 & 0.710 & 0.096 \\
+tier0+tier1 & 0.922 & 0.004 & 0.703 & 0.092 \\
+tier1 & 0.921 & 0.004 & 0.709 & 0.093 \\
+linear\_all & 0.921 & 0.005 & 0.712 & 0.111 \\
+stack & 0.917 & 0.015 & 0.683 & 0.118 \\
+task\_id\_only & 0.760 & 0.008 & 0.395 & 0.185 \\
+tier0\_tuned & 0.760 & 0.037 & 0.432 & 0.181 \\
+rf\_tier0 & 0.748 & 0.009 & 0.391 & 0.127 \\
+tier0 & 0.741 & 0.010 & 0.406 & 0.148 \\
+tier0+edge & 0.740 & 0.011 & 0.408 & 0.146 \\
+tier0+task & 0.739 & 0.009 & 0.400 & 0.148 \\
+hgb\_tier0 & 0.739 & 0.008 & 0.403 & 0.128 \\
+edge & 0.728 & 0.012 & 0.399 & 0.168 \\
+length\_rule & 0.673 & 0.010 & 0.280 & 0.230 \\
+majority & 0.500 & 0.000 & 0.172 & 0.143 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}

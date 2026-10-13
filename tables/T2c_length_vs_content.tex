@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\caption{Controlled contrasts. \texttt{gsm8k}/\texttt{gsm8k\_direct} share items and differ only in generated length.}
+\label{tab:contrast}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lrrrrrrrr}
+\toprule
+axis & precision & task\_a & deg\_a & n\_a & task\_b & deg\_b & n\_b & ratio \\
+\midrule
+generation length (same items) & nf4 & gsm8k & 0.230 & 670 & gsm8k\_direct & 0.493 & 73 & 0.466 \\
+generation length (same items) & fp4 & gsm8k & 0.452 & 670 & gsm8k\_direct & 0.699 & 73 & 0.647 \\
+generation length (same items) & int8 & gsm8k & 0.112 & 670 & gsm8k\_direct & 0.151 & 73 & 0.743 \\
+item difficulty (same format) & nf4 & arc\_easy & 0.074 & 1334 & arc\_challenge & 0.163 & 754 & 0.455 \\
+item difficulty (same format) & fp4 & arc\_easy & 0.085 & 1334 & arc\_challenge & 0.147 & 754 & 0.580 \\
+item difficulty (same format) & int8 & arc\_easy & 0.015 & 1334 & arc\_challenge & 0.025 & 754 & 0.595 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}

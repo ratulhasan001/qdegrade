@@ -1,0 +1,14 @@
+{
+  "tier0_extract_ms": 1.1124599650020173,
+  "xgb_predict_ms": 0.004520220999438607,
+  "router_total_ms": 1.1169801860014559,
+  "prefill_ms_fp16": 34.800004959106445,
+  "peak_vram_gb_fp16": 3.128548864,
+  "prefill_ms_nf4": 67.06006526947021,
+  "peak_vram_gb_nf4": 1.199311872,
+  "prefill_ms_fp4": 56.74169063568115,
+  "peak_vram_gb_fp4": 1.258318848,
+  "prefill_ms_int8": 178.86006832122803,
+  "peak_vram_gb_int8": 1.838903296,
+  "overhead_vs_prefill_pct": 3.2097127207712224
+}

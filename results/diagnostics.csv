@@ -1,0 +1,6 @@
+task,n,acc,unparsed_rate,maybe_truncated,mean_out_chars
+gsm8k,100,0.62,0.0,0.02,959.87
+gsm8k_direct,100,0.1,0.0,0.01,3.93
+arc_easy,100,0.91,0.0,0.37,39.2
+arc_challenge,100,0.76,0.03,0.62,53.78
+sst2,100,0.92,0.0,0.0,8.0

@@ -1,0 +1,33 @@
+\begin{table}[t]
+\centering
+\caption{Degradation rate on the fp16-correct subset. The \texttt{fp16\_selfrep} row is the run-to-run noise floor.}
+\label{tab:degrade}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lrrrr}
+\toprule
+task & precision & mean & sum & size \\
+\midrule
+arc\_challenge & fp16\_selfrep & 0.000 & 0 & 754 \\
+arc\_challenge & fp4 & 0.147 & 111 & 754 \\
+arc\_challenge & int8 & 0.025 & 19 & 754 \\
+arc\_challenge & nf4 & 0.163 & 123 & 754 \\
+arc\_easy & fp16\_selfrep & 0.000 & 0 & 1334 \\
+arc\_easy & fp4 & 0.085 & 114 & 1334 \\
+arc\_easy & int8 & 0.015 & 20 & 1334 \\
+arc\_easy & nf4 & 0.074 & 99 & 1334 \\
+gsm8k & fp16\_selfrep & 0.013 & 9 & 670 \\
+gsm8k & fp4 & 0.452 & 303 & 670 \\
+gsm8k & int8 & 0.112 & 75 & 670 \\
+gsm8k & nf4 & 0.230 & 154 & 670 \\
+gsm8k\_direct & fp16\_selfrep & 0.000 & 0 & 73 \\
+gsm8k\_direct & fp4 & 0.699 & 51 & 73 \\
+gsm8k\_direct & int8 & 0.151 & 11 & 73 \\
+gsm8k\_direct & nf4 & 0.493 & 36 & 73 \\
+sst2 & fp16\_selfrep & 0.000 & 0 & 794 \\
+sst2 & fp4 & 0.058 & 46 & 794 \\
+sst2 & int8 & 0.009 & 7 & 794 \\
+sst2 & nf4 & 0.023 & 18 & 794 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}

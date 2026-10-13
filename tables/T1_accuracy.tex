@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\caption{Task accuracy by numerical precision.}
+\label{tab:acc}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lrrrr}
+\toprule
+task & fp16 & fp4 & int8 & nf4 \\
+\midrule
+arc\_challenge & 0.754 & 0.674 & 0.743 & 0.651 \\
+arc\_easy & 0.889 & 0.847 & 0.889 & 0.848 \\
+gsm8k & 0.670 & 0.451 & 0.668 & 0.601 \\
+gsm8k\_direct & 0.073 & 0.047 & 0.077 & 0.065 \\
+sst2 & 0.911 & 0.867 & 0.907 & 0.906 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}

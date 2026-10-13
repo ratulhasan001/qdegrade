@@ -1,0 +1,31 @@
+\begin{table}[t]
+\centering
+\caption{Cross-precision transfer. Diagonal entries are out-of-fold; off-diagonal entries train on one quantization tier and test on another.}
+\label{tab:xprec}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lrrrr}
+\toprule
+train & test & arm & auc & same \\
+\midrule
+nf4 & nf4 & tier0 & 0.697 & True \\
+nf4 & nf4 & tier0+tier1 & 0.851 & True \\
+nf4 & fp4 & tier0 & 0.752 & False \\
+nf4 & fp4 & tier0+tier1 & 0.897 & False \\
+nf4 & int8 & tier0 & 0.843 & False \\
+nf4 & int8 & tier0+tier1 & 0.868 & False \\
+fp4 & nf4 & tier0 & 0.774 & False \\
+fp4 & nf4 & tier0+tier1 & 0.869 & False \\
+fp4 & fp4 & tier0 & 0.737 & True \\
+fp4 & fp4 & tier0+tier1 & 0.920 & True \\
+fp4 & int8 & tier0 & 0.833 & False \\
+fp4 & int8 & tier0+tier1 & 0.843 & False \\
+int8 & nf4 & tier0 & 0.695 & False \\
+int8 & nf4 & tier0+tier1 & 0.807 & False \\
+int8 & fp4 & tier0 & 0.704 & False \\
+int8 & fp4 & tier0+tier1 & 0.789 & False \\
+int8 & int8 & tier0 & 0.729 & True \\
+int8 & int8 & tier0+tier1 & 0.809 & True \\
+\bottomrule
+\end{tabular}
+}
+\end{table}

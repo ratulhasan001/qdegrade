@@ -1,0 +1,22 @@
+\begin{table}[t]
+\centering
+\caption{Feature-group ablation (fp4).}
+\label{tab:abl_fp4}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lrrrr}
+\toprule
+removed & auc & sd & delta & n\_feat \\
+\midrule
+none (full) & 0.922 & 0.010 & 0.000 & 73 \\
+length & 0.920 & 0.010 & -0.002 & 63 \\
+lexical & 0.921 & 0.010 & -0.001 & 68 \\
+numeric & 0.921 & 0.010 & -0.000 & 70 \\
+structure & 0.923 & 0.009 & 0.002 & 66 \\
+arith & 0.922 & 0.010 & 0.000 & 64 \\
+discourse & 0.923 & 0.011 & 0.001 & 62 \\
+t1\_div & 0.856 & 0.009 & -0.066 & 64 \\
+t1\_unc & 0.915 & 0.006 & -0.007 & 57 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}

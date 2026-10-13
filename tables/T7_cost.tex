@@ -1,0 +1,25 @@
+\begin{table}[t]
+\centering
+\caption{Router overhead and per-precision inference cost.}
+\label{tab:cost}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lr}
+\toprule
+metric & value \\
+\midrule
+tier0\_extract\_ms & 1.112 \\
+xgb\_predict\_ms & 0.005 \\
+router\_total\_ms & 1.117 \\
+prefill\_ms\_fp16 & 34.800 \\
+peak\_vram\_gb\_fp16 & 3.129 \\
+prefill\_ms\_nf4 & 67.060 \\
+peak\_vram\_gb\_nf4 & 1.199 \\
+prefill\_ms\_fp4 & 56.742 \\
+peak\_vram\_gb\_fp4 & 1.258 \\
+prefill\_ms\_int8 & 178.860 \\
+peak\_vram\_gb\_int8 & 1.839 \\
+overhead\_vs\_prefill\_pct & 3.210 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}

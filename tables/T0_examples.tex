@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+\caption{Corpus composition with one representative item per task. Each item is wrapped in a fixed, task-specific instruction before generation.}
+\label{tab:examples}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{p{0.12\columnwidth}p{0.60\columnwidth}rr}
+\hline
+Task & Example item & Gold & $N$ \\
+\hline
+gsm8k & A glass of milk is 8 ounces of milk.  John drinks 2 glasses of milk.  If milk has 3 calories per ounce how many calories did he consume? & 48 & 1000 \\
+gsm8k\_direct & A glass of milk is 8 ounces of milk.  John drinks 2 glasses of milk.  If milk has 3 calories per ounce how many calories did he consume? & 48 & 1000 \\
+arc\_easy & Which energy source could involve a dam? A. biomass B. solar power C. geothermal energy D. hydroelectric power & D & 1500 \\
+arc\_challenge & Which process in the water cycle returns water to the atmosphere? A. condensation B. evaporation C. precipitation D. transpiration & B & 1000 \\
+sst2 & too slow , too long and too little happens . & negative & 872 \\
+\hline
+\end{tabular}}
+\end{table}

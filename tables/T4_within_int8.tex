@@ -1,0 +1,28 @@
+\begin{table}[t]
+\centering
+\caption{Within-task AUC (int8). Confound control.}
+\label{tab:within_int8}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lrrrrrr}
+\toprule
+arm & arc\_challenge & arc\_easy & gsm8k & gsm8k\_direct & sst2 & macro \\
+\midrule
+tier0+tier1 & 0.794 & 0.818 & 0.500 & 0.540 & 0.969 & 0.724 \\
+tier0+tier1\_tuned & 0.722 & 0.772 & 0.524 & 0.503 & 0.939 & 0.692 \\
+tier1 & 0.681 & 0.792 & 0.478 & 0.532 & 0.964 & 0.690 \\
+linear\_all & 0.803 & 0.876 & 0.555 & 0.475 & 0.684 & 0.678 \\
+stack & 0.612 & 0.621 & 0.542 & 0.477 & 0.869 & 0.624 \\
+hgb\_tier0 & 0.626 & 0.583 & 0.548 & 0.419 & 0.640 & 0.563 \\
+tier0 & 0.611 & 0.594 & 0.582 & 0.501 & 0.472 & 0.552 \\
+rf\_tier0 & 0.633 & 0.612 & 0.579 & 0.411 & 0.499 & 0.547 \\
+tier0+task & 0.615 & 0.530 & 0.541 & 0.485 & 0.518 & 0.538 \\
+tier0\_tuned & 0.625 & 0.540 & 0.561 & 0.415 & 0.483 & 0.525 \\
+length\_rule & 0.478 & 0.590 & 0.632 & 0.473 & 0.441 & 0.523 \\
+tier0+edge & 0.612 & 0.502 & 0.542 & 0.390 & 0.527 & 0.514 \\
+edge & 0.491 & 0.536 & 0.568 & 0.456 & 0.490 & 0.508 \\
+majority & 0.558 & 0.444 & 0.494 & 0.523 & 0.480 & 0.500 \\
+task\_id\_only & 0.414 & 0.414 & 0.447 & 0.348 & 0.345 & 0.394 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}

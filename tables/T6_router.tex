@@ -1,0 +1,37 @@
+\begin{table}[t]
+\centering
+\caption{Router operating points. \emph{parity} is the fraction of fp16 accuracy retained; \emph{lost\_recovered} is the share of quantization-induced loss recovered.}
+\label{tab:router}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lrrrrrrr}
+\toprule
+precision & arm & coverage & parity & random & oracle & lost\_recovered & baseline \\
+\midrule
+nf4 & tier0 & 0.050 & 0.902 & 0.888 & 0.942 & 0.177 & 0.881 \\
+nf4 & tier0 & 0.100 & 0.912 & 0.893 & 0.981 & 0.256 & 0.881 \\
+nf4 & tier0 & 0.150 & 0.919 & 0.898 & 1.000 & 0.321 & 0.881 \\
+nf4 & tier0 & 0.250 & 0.939 & 0.910 & 1.000 & 0.484 & 0.881 \\
+nf4 & tier0+tier1 & 0.050 & 0.917 & 0.888 & 0.942 & 0.302 & 0.881 \\
+nf4 & tier0+tier1 & 0.100 & 0.926 & 0.893 & 0.981 & 0.377 & 0.881 \\
+nf4 & tier0+tier1 & 0.150 & 0.936 & 0.898 & 1.000 & 0.463 & 0.881 \\
+nf4 & tier0+tier1 & 0.250 & 0.961 & 0.910 & 1.000 & 0.670 & 0.881 \\
+fp4 & tier0 & 0.050 & 0.859 & 0.838 & 0.888 & 0.181 & 0.828 \\
+fp4 & tier0 & 0.100 & 0.876 & 0.845 & 0.927 & 0.283 & 0.828 \\
+fp4 & tier0 & 0.150 & 0.896 & 0.852 & 0.968 & 0.395 & 0.828 \\
+fp4 & tier0 & 0.250 & 0.924 & 0.869 & 1.000 & 0.560 & 0.828 \\
+fp4 & tier0+tier1 & 0.050 & 0.877 & 0.838 & 0.888 & 0.286 & 0.828 \\
+fp4 & tier0+tier1 & 0.100 & 0.898 & 0.845 & 0.927 & 0.411 & 0.828 \\
+fp4 & tier0+tier1 & 0.150 & 0.919 & 0.852 & 0.968 & 0.530 & 0.828 \\
+fp4 & tier0+tier1 & 0.250 & 0.962 & 0.869 & 1.000 & 0.782 & 0.828 \\
+int8 & tier0 & 0.050 & 0.970 & 0.966 & 1.000 & 0.189 & 0.964 \\
+int8 & tier0 & 0.100 & 0.976 & 0.967 & 1.000 & 0.341 & 0.964 \\
+int8 & tier0 & 0.150 & 0.980 & 0.969 & 1.000 & 0.455 & 0.964 \\
+int8 & tier0 & 0.250 & 0.985 & 0.972 & 1.000 & 0.576 & 0.964 \\
+int8 & tier0+tier1 & 0.050 & 0.972 & 0.966 & 1.000 & 0.242 & 0.964 \\
+int8 & tier0+tier1 & 0.100 & 0.975 & 0.967 & 1.000 & 0.311 & 0.964 \\
+int8 & tier0+tier1 & 0.150 & 0.978 & 0.969 & 1.000 & 0.402 & 0.964 \\
+int8 & tier0+tier1 & 0.250 & 0.986 & 0.972 & 1.000 & 0.629 & 0.964 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
