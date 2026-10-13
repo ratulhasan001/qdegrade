@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800">
+<defs><filter id="shadow" x="-5%" y="-5%" width="110%" height="120%"><feDropShadow dx="0" dy="1.5" stdDeviation="2.4" flood-color="#0F172A" flood-opacity="0.08"/></filter>
+<marker id="m_2F5D8A" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F5D8A"/></marker>
+<marker id="m_1E7356" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1E7356"/></marker>
+<marker id="m_B23A3A" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B23A3A"/></marker>
+<marker id="m_5B4A9B" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5B4A9B"/></marker>
+</defs>
+<rect width="1400" height="800" fill="#FFFFFF"/>
+<rect x="20" y="20" width="1360" height="372" rx="18" fill="#F3F6FA" stroke="none" stroke-width="1.3"/>
+<rect x="20" y="20" width="6" height="372" rx="3" fill="#2F5D8A"/>
+<text x="48" y="58" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#2F5D8A" text-anchor="start" font-style="normal" letter-spacing="1.8">STEP 1  ·  BUILD THE RISK CHECKER  (done once, offline)</text>
+<rect x="44" y="80" width="292" height="286" rx="14" fill="#FFFFFF" stroke="#D3DCE6" stroke-width="1.3" filter="url(#shadow)"/>
+<circle cx="190.0" cy="120" r="21" fill="#2F5D8A"/>
+<text x="190.0" y="128" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" font-weight="bold" fill="#fff" text-anchor="middle" font-style="normal" letter-spacing="0">1</text>
+<text x="190.0" y="178" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#1E293B" text-anchor="middle" font-style="normal" letter-spacing="0">Collect questions</text>
+<text x="190.0" y="210" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16.5" font-weight="normal" fill="#64748B" text-anchor="middle" font-style="normal" letter-spacing="0">5,372 questions from five</text>
+<text x="190.0" y="234" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16.5" font-weight="normal" fill="#64748B" text-anchor="middle" font-style="normal" letter-spacing="0">benchmark tasks</text>
+<rect x="60" y="260" width="260" height="92" rx="10" fill="#F3F6FA" stroke="none" stroke-width="1.3"/>
+<rect x="97.6" y="272" width="60.8" height="32" rx="16" fill="#E4ECF5" stroke="#E4ECF5" stroke-width="1.3"/>
+<text x="128.0" y="293" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="bold" fill="#2F5D8A" text-anchor="middle" font-style="normal" letter-spacing="0">Math</text>
+<rect x="189.3" y="272" width="85.39999999999999" height="32" rx="16" fill="#E4ECF5" stroke="#E4ECF5" stroke-width="1.3"/>
+<text x="232.0" y="293" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="bold" fill="#2F5D8A" text-anchor="middle" font-style="normal" letter-spacing="0">Science</text>
+<rect x="139.1" y="310" width="101.8" height="32" rx="16" fill="#E4ECF5" stroke="#E4ECF5" stroke-width="1.3"/>
+<text x="190.0" y="331" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="bold" fill="#2F5D8A" text-anchor="middle" font-style="normal" letter-spacing="0">Sentiment</text>
+<rect x="380" y="80" width="292" height="286" rx="14" fill="#FFFFFF" stroke="#D3DCE6" stroke-width="1.3" filter="url(#shadow)"/>
+<circle cx="526.0" cy="120" r="21" fill="#2F5D8A"/>
+<text x="526.0" y="128" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" font-weight="bold" fill="#fff" text-anchor="middle" font-style="normal" letter-spacing="0">2</text>
+<text x="526.0" y="178" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#1E293B" text-anchor="middle" font-style="normal" letter-spacing="0">Run two versions</text>
+<text x="526.0" y="210" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16.5" font-weight="normal" fill="#64748B" text-anchor="middle" font-style="normal" letter-spacing="0">Same questions on the full</text>
+<text x="526.0" y="234" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16.5" font-weight="normal" fill="#64748B" text-anchor="middle" font-style="normal" letter-spacing="0">and the compressed model</text>
+<rect x="396" y="260" width="260" height="92" rx="10" fill="#F3F6FA" stroke="none" stroke-width="1.3"/>
+<rect x="411.0" y="272" width="230" height="32" rx="16" fill="#2F5D8A" stroke="#2F5D8A" stroke-width="1.3"/>
+<text x="526.0" y="293" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle" font-style="normal" letter-spacing="0">Full model  ·  FP16</text>
+<rect x="411.0" y="310" width="230" height="32" rx="16" fill="#FFFFFF" stroke="#2F5D8A" stroke-width="1.3"/>
+<text x="526.0" y="331" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="bold" fill="#2F5D8A" text-anchor="middle" font-style="normal" letter-spacing="0">Compressed  ·  8-bit / 4-bit</text>
+<rect x="716" y="80" width="292" height="286" rx="14" fill="#FFFFFF" stroke="#D3DCE6" stroke-width="1.3" filter="url(#shadow)"/>
+<circle cx="862.0" cy="120" r="21" fill="#2F5D8A"/>
+<text x="862.0" y="128" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" font-weight="bold" fill="#fff" text-anchor="middle" font-style="normal" letter-spacing="0">3</text>
+<text x="862.0" y="178" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#1E293B" text-anchor="middle" font-style="normal" letter-spacing="0">Mark broken answers</text>
+<text x="862.0" y="210" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16.5" font-weight="normal" fill="#64748B" text-anchor="middle" font-style="normal" letter-spacing="0">Full model right but</text>
+<text x="862.0" y="234" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16.5" font-weight="normal" fill="#64748B" text-anchor="middle" font-style="normal" letter-spacing="0">compressed model wrong</text>
+<rect x="732" y="260" width="260" height="92" rx="10" fill="#F3F6FA" stroke="none" stroke-width="1.3"/>
+<circle cx="766" cy="288" r="12" fill="#DDEFE6"/>
+<path d="M760.5,288 L764.5,292.5 L772,283" fill="none" stroke="#1E7356" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="788" y="293" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="normal" fill="#334155" text-anchor="start" font-style="normal" letter-spacing="0">Full model</text>
+<circle cx="766" cy="326" r="12" fill="#F7E3E1"/>
+<path d="M761,321 L771,331 M771,321 L761,331" stroke="#B23A3A" stroke-width="2.6" stroke-linecap="round"/>
+<text x="788" y="331" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="normal" fill="#334155" text-anchor="start" font-style="normal" letter-spacing="0">Compressed</text>
+<rect x="896.0" y="291" width="92" height="32" rx="16" fill="#F7E3E1" stroke="#F7E3E1" stroke-width="1.3"/>
+<text x="942" y="312" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="bold" fill="#B23A3A" text-anchor="middle" font-style="normal" letter-spacing="0">broken</text>
+<rect x="1052" y="80" width="292" height="286" rx="14" fill="#FFFFFF" stroke="#D3DCE6" stroke-width="1.3" filter="url(#shadow)"/>
+<circle cx="1198.0" cy="120" r="21" fill="#2F5D8A"/>
+<text x="1198.0" y="128" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" font-weight="bold" fill="#fff" text-anchor="middle" font-style="normal" letter-spacing="0">4</text>
+<text x="1198.0" y="178" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#1E293B" text-anchor="middle" font-style="normal" letter-spacing="0">Train a risk checker</text>
+<text x="1198.0" y="210" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16.5" font-weight="normal" fill="#64748B" text-anchor="middle" font-style="normal" letter-spacing="0">Learns which questions</text>
+<text x="1198.0" y="234" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16.5" font-weight="normal" fill="#64748B" text-anchor="middle" font-style="normal" letter-spacing="0">are likely to break</text>
+<rect x="1068" y="260" width="260" height="92" rx="10" fill="#F3F6FA" stroke="none" stroke-width="1.3"/>
+<text x="1198.0" y="292" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="normal" fill="#64748B" text-anchor="middle" font-style="normal" letter-spacing="0">risk score</text>
+<defs><linearGradient id="rg" x1="0" x2="1"><stop offset="0" stop-color="#1E7356"/><stop offset="0.55" stop-color="#D9A33A"/><stop offset="1" stop-color="#B23A3A"/></linearGradient></defs>
+<rect x="1092" y="308" width="212" height="12" rx="6" fill="url(#rg)" stroke="none" stroke-width="1.3"/>
+<text x="1092" y="340" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#1E7356" text-anchor="start" font-style="normal" letter-spacing="0">safe</text>
+<text x="1304" y="340" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#B23A3A" text-anchor="end" font-style="normal" letter-spacing="0">risky</text>
+<path d="M342,223.0 L372,223.0" fill="none" stroke="#2F5D8A" stroke-width="3" stroke-linejoin="round" marker-end="url(#m_2F5D8A)"/>
+<path d="M678,223.0 L708,223.0" fill="none" stroke="#2F5D8A" stroke-width="3" stroke-linejoin="round" marker-end="url(#m_2F5D8A)"/>
+<path d="M1014,223.0 L1044,223.0" fill="none" stroke="#2F5D8A" stroke-width="3" stroke-linejoin="round" marker-end="url(#m_2F5D8A)"/>
+<rect x="20" y="430" width="1360" height="350" rx="18" fill="#F0F7F3" stroke="none" stroke-width="1.3"/>
+<rect x="20" y="430" width="6" height="350" rx="3" fill="#1E7356"/>
+<text x="48" y="468" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#1E7356" text-anchor="start" font-style="normal" letter-spacing="1.8">STEP 2  ·  USE IT ON THE DEVICE</text>
+<rect x="52" y="556" width="220" height="88" rx="12" fill="#FFFFFF" stroke="#1E7356" stroke-width="1.7" filter="url(#shadow)"/>
+<text x="162.0" y="596.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="19" font-weight="bold" fill="#1E293B" text-anchor="middle" font-style="normal" letter-spacing="0">New question</text>
+<text x="162.0" y="620.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="normal" fill="#64748B" text-anchor="middle" font-style="normal" letter-spacing="0">from the user</text>
+<rect x="340" y="556" width="250" height="88" rx="12" fill="#F5F3FA" stroke="#1E7356" stroke-width="1.7" filter="url(#shadow)"/>
+<text x="465.0" y="596.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="19" font-weight="bold" fill="#1E293B" text-anchor="middle" font-style="normal" letter-spacing="0">Risk checker</text>
+<text x="465.0" y="620.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="normal" fill="#64748B" text-anchor="middle" font-style="normal" letter-spacing="0">gives a risk score</text>
+<path d="M277,600 L332,600" fill="none" stroke="#1E7356" stroke-width="3" stroke-linejoin="round" marker-end="url(#m_1E7356)"/>
+<path d="M756,534 L852,600 L756,666 L660,600 Z" fill="#FFFFFF" stroke="#1E7356" stroke-width="1.8" filter="url(#shadow)"/>
+<text x="756" y="607" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="19" font-weight="bold" fill="#1E293B" text-anchor="middle" font-style="normal" letter-spacing="0">High risk?</text>
+<path d="M595,600 L652,600" fill="none" stroke="#1E7356" stroke-width="3" stroke-linejoin="round" marker-end="url(#m_1E7356)"/>
+<rect x="958" y="464" width="392" height="92" rx="12" fill="#F7E3E1" stroke="#B23A3A" stroke-width="1.7" filter="url(#shadow)"/>
+<text x="1154.0" y="506.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="19" font-weight="bold" fill="#B23A3A" text-anchor="middle" font-style="normal" letter-spacing="0">Send to the full model</text>
+<text x="1154.0" y="530.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="normal" fill="#64748B" text-anchor="middle" font-style="normal" letter-spacing="0">slower, but keeps the right answer</text>
+<rect x="958" y="644" width="392" height="92" rx="12" fill="#DDEFE6" stroke="#1E7356" stroke-width="1.7" filter="url(#shadow)"/>
+<text x="1154.0" y="686.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="19" font-weight="bold" fill="#1E7356" text-anchor="middle" font-style="normal" letter-spacing="0">Answer on the device</text>
+<text x="1154.0" y="710.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="normal" fill="#64748B" text-anchor="middle" font-style="normal" letter-spacing="0">compressed model: fast and small</text>
+<path d="M756,534 L756,510 L949,510" fill="none" stroke="#B23A3A" stroke-width="3" stroke-linejoin="round" marker-end="url(#m_B23A3A)"/>
+<text x="816" y="500" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#B23A3A" text-anchor="middle" font-style="normal" letter-spacing="0">Yes</text>
+<path d="M756,666 L756,690 L949,690" fill="none" stroke="#1E7356" stroke-width="3" stroke-linejoin="round" marker-end="url(#m_1E7356)"/>
+<text x="816" y="716" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#1E7356" text-anchor="middle" font-style="normal" letter-spacing="0">No</text>
+<path d="M1198.0,368 L1198.0,411 L465,411 L465,548" fill="none" stroke="#5B4A9B" stroke-width="3" stroke-dasharray="7 6" stroke-linejoin="round" marker-end="url(#m_5B4A9B)"/>
+<rect x="746.5" y="396" width="170" height="30" rx="15" fill="#FFFFFF" stroke="#5B4A9B" stroke-width="1.4"/>
+<text x="831.5" y="416" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="bold" fill="#5B4A9B" text-anchor="middle" font-style="normal" letter-spacing="0">trained checker</text>
+<text x="321" y="712" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="normal" fill="#64748B" text-anchor="middle" font-style="italic" letter-spacing="0">Only the few risky questions leave the device;</text>
+<text x="321" y="734" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="normal" fill="#64748B" text-anchor="middle" font-style="italic" letter-spacing="0">everything else stays fast and local.</text>
+</svg>

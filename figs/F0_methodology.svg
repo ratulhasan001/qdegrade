@@ -1,0 +1,220 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1128" viewBox="0 0 1600 1128">
+<defs>
+<filter id="shadow" x="-5%" y="-5%" width="110%" height="115%"><feDropShadow dx="0" dy="1.5" stdDeviation="2.2" flood-color="#0F172A" flood-opacity="0.08"/></filter>
+<marker id="m_B23A3A" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B23A3A"/></marker>
+<marker id="m_5B4A9B" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5B4A9B"/></marker>
+<marker id="m_64748B" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748B"/></marker>
+<marker id="m_1E7356" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1E7356"/></marker>
+<marker id="m_2F5D8A" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F5D8A"/></marker>
+</defs>
+<rect width="1600" height="1128" fill="#FFFFFF"/>
+<rect x="20" y="20" width="1560" height="432" rx="16" fill="#F3F6FA" stroke="none" stroke-width="1.2" />
+<rect x="20" y="20" width="6" height="432" rx="3" fill="#2F5D8A"/>
+<text x="46" y="54" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#2F5D8A" text-anchor="start" font-style="normal" letter-spacing="1.6">A   MEASURE  ·  HOW OFTEN DOES QUANTIZATION BREAK AN ANSWER?</text>
+<rect x="44" y="72" width="345" height="360" rx="12" fill="#FFFFFF" stroke="#D3DCE6" stroke-width="1.2" filter="url(#shadow)"/>
+<circle cx="74" cy="104" r="15" fill="#2F5D8A"/>
+<text x="74" y="109.5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#fff" text-anchor="middle" font-style="normal" letter-spacing="0">1</text>
+<text x="100" y="110" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="19" font-weight="bold" fill="#1E293B" text-anchor="start" font-style="normal" letter-spacing="0">Benchmark prompts</text>
+<line x1="62" y1="132" x2="371" y2="132" stroke="#D3DCE6" stroke-width="1"/>
+<rect x="60" y="145" width="313" height="34" rx="6" fill="#F3F6FA" stroke="none" stroke-width="1.2" />
+<text x="72" y="168" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="normal" fill="#334155" text-anchor="start" font-style="normal" letter-spacing="0">GSM8K  (chain-of-thought)</text>
+<text x="361" y="168" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="bold" fill="#1E293B" text-anchor="end" font-style="normal" letter-spacing="0">1,000</text>
+<text x="72" y="204" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="normal" fill="#334155" text-anchor="start" font-style="normal" letter-spacing="0">GSM8K-direct  (answer only)</text>
+<text x="361" y="204" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="bold" fill="#1E293B" text-anchor="end" font-style="normal" letter-spacing="0">1,000</text>
+<rect x="60" y="217" width="313" height="34" rx="6" fill="#F3F6FA" stroke="none" stroke-width="1.2" />
+<text x="72" y="240" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="normal" fill="#334155" text-anchor="start" font-style="normal" letter-spacing="0">ARC-Easy</text>
+<text x="361" y="240" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="bold" fill="#1E293B" text-anchor="end" font-style="normal" letter-spacing="0">1,500</text>
+<text x="72" y="276" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="normal" fill="#334155" text-anchor="start" font-style="normal" letter-spacing="0">ARC-Challenge</text>
+<text x="361" y="276" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="bold" fill="#1E293B" text-anchor="end" font-style="normal" letter-spacing="0">1,000</text>
+<rect x="60" y="289" width="313" height="34" rx="6" fill="#F3F6FA" stroke="none" stroke-width="1.2" />
+<text x="72" y="312" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="normal" fill="#334155" text-anchor="start" font-style="normal" letter-spacing="0">SST-2</text>
+<text x="361" y="312" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="bold" fill="#1E293B" text-anchor="end" font-style="normal" letter-spacing="0">872</text>
+<line x1="62" y1="340" x2="371" y2="340" stroke="#D3DCE6" stroke-width="1"/>
+<text x="72" y="366" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#1E293B" text-anchor="start" font-style="normal" letter-spacing="0">Total</text>
+<text x="361" y="366" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#2F5D8A" text-anchor="end" font-style="normal" letter-spacing="0">5,372 prompts</text>
+<text x="72" y="398" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#64748B" text-anchor="start" font-style="italic" letter-spacing="0">Same GSM8K items in two formats separate</text>
+<text x="72" y="416" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#64748B" text-anchor="start" font-style="italic" letter-spacing="0">output length from task content.</text>
+<rect x="433" y="72" width="345" height="360" rx="12" fill="#FFFFFF" stroke="#D3DCE6" stroke-width="1.2" filter="url(#shadow)"/>
+<circle cx="463" cy="104" r="15" fill="#2F5D8A"/>
+<text x="463" y="109.5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#fff" text-anchor="middle" font-style="normal" letter-spacing="0">2</text>
+<text x="489" y="110" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="19" font-weight="bold" fill="#1E293B" text-anchor="start" font-style="normal" letter-spacing="0">Multi-precision inference</text>
+<line x1="451" y1="132" x2="760" y2="132" stroke="#D3DCE6" stroke-width="1"/>
+<rect x="453" y="148" width="305" height="62" rx="8" fill="#F3F6FA" stroke="none" stroke-width="1.2" />
+<text x="605.5" y="174" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16.5" font-weight="bold" fill="#1E293B" text-anchor="middle" font-style="normal" letter-spacing="0">Qwen2.5-1.5B-Instruct</text>
+<text x="605.5" y="196" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" fill="#64748B" text-anchor="middle" font-style="normal" letter-spacing="0">greedy decoding · exact-match scoring</text>
+<rect x="453" y="228" width="146" height="62" rx="8" fill="#2F5D8A" stroke="#2F5D8A" stroke-width="1.4" />
+<text x="526" y="255" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#fff" text-anchor="middle" font-style="normal" letter-spacing="0">FP16</text>
+<text x="526" y="275" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#DCE6F2" text-anchor="middle" font-style="normal" letter-spacing="0">reference · 2 runs</text>
+<rect x="612" y="228" width="146" height="62" rx="8" fill="#FFFFFF" stroke="#2F5D8A" stroke-width="1.4" />
+<text x="685" y="255" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#2F5D8A" text-anchor="middle" font-style="normal" letter-spacing="0">INT8</text>
+<text x="685" y="275" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#64748B" text-anchor="middle" font-style="normal" letter-spacing="0">LLM.int8</text>
+<rect x="453" y="304" width="146" height="62" rx="8" fill="#FFFFFF" stroke="#2F5D8A" stroke-width="1.4" />
+<text x="526" y="331" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#2F5D8A" text-anchor="middle" font-style="normal" letter-spacing="0">NF4</text>
+<text x="526" y="351" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#64748B" text-anchor="middle" font-style="normal" letter-spacing="0">4-bit NormalFloat</text>
+<rect x="612" y="304" width="146" height="62" rx="8" fill="#FFFFFF" stroke="#2F5D8A" stroke-width="1.4" />
+<text x="685" y="331" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#2F5D8A" text-anchor="middle" font-style="normal" letter-spacing="0">FP4</text>
+<text x="685" y="351" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#64748B" text-anchor="middle" font-style="normal" letter-spacing="0">4-bit float</text>
+<text x="461" y="398" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#64748B" text-anchor="start" font-style="italic" letter-spacing="0">All quantized tiers loaded with bitsandbytes;</text>
+<text x="461" y="416" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#64748B" text-anchor="start" font-style="italic" letter-spacing="0">no separate checkpoints.</text>
+<rect x="822" y="72" width="345" height="360" rx="12" fill="#FFFFFF" stroke="#D3DCE6" stroke-width="1.2" filter="url(#shadow)"/>
+<circle cx="852" cy="104" r="15" fill="#2F5D8A"/>
+<text x="852" y="109.5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#fff" text-anchor="middle" font-style="normal" letter-spacing="0">3</text>
+<text x="878" y="110" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="19" font-weight="bold" fill="#1E293B" text-anchor="start" font-style="normal" letter-spacing="0">Pilot go / no-go gate</text>
+<line x1="840" y1="132" x2="1149" y2="132" stroke="#D3DCE6" stroke-width="1"/>
+<text x="850" y="164" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" fill="#64748B" text-anchor="start" font-style="normal" letter-spacing="0">100 prompts per task, checked before the full run</text>
+<circle cx="860" cy="195" r="11" fill="#DDEFE6"/>
+<path d="M855,195 L858.5,199 L865.5,190.5" fill="none" stroke="#1E7356" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="882" y="200" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="bold" fill="#1E293B" text-anchor="start" font-style="normal" letter-spacing="0">FP16 accuracy &gt; 0.25</text>
+<text x="882" y="219" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#64748B" text-anchor="start" font-style="normal" letter-spacing="0">enough correct answers to label</text>
+<circle cx="860" cy="247" r="11" fill="#DDEFE6"/>
+<path d="M855,247 L858.5,251 L865.5,242.5" fill="none" stroke="#1E7356" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="882" y="252" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="bold" fill="#1E293B" text-anchor="start" font-style="normal" letter-spacing="0">Degradation ≥ 5%</text>
+<text x="882" y="271" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#64748B" text-anchor="start" font-style="normal" letter-spacing="0">of FP16-correct prompts</text>
+<circle cx="860" cy="299" r="11" fill="#DDEFE6"/>
+<path d="M855,299 L858.5,303 L865.5,294.5" fill="none" stroke="#1E7356" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="882" y="304" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="bold" fill="#1E293B" text-anchor="start" font-style="normal" letter-spacing="0">Degradation ≥ 2 × noise floor</text>
+<text x="882" y="323" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#64748B" text-anchor="start" font-style="normal" letter-spacing="0">signal exceeds GPU nondeterminism</text>
+<rect x="842" y="352" width="305" height="62" rx="8" fill="#F3F6FA" stroke="none" stroke-width="1.2" />
+<text x="856" y="377" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" fill="#334155" text-anchor="start" font-style="normal" letter-spacing="0">Noise floor = disagreement between two</text>
+<text x="856" y="397" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" fill="#334155" text-anchor="start" font-style="normal" letter-spacing="0">FP16 runs with different batch order</text>
+<rect x="1211" y="72" width="345" height="360" rx="12" fill="#FFFFFF" stroke="#D3DCE6" stroke-width="1.2" filter="url(#shadow)"/>
+<circle cx="1241" cy="104" r="15" fill="#2F5D8A"/>
+<text x="1241" y="109.5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#fff" text-anchor="middle" font-style="normal" letter-spacing="0">4</text>
+<text x="1267" y="110" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="19" font-weight="bold" fill="#1E293B" text-anchor="start" font-style="normal" letter-spacing="0">Degradation label</text>
+<line x1="1229" y1="132" x2="1538" y2="132" stroke="#D3DCE6" stroke-width="1"/>
+<text x="1269" y="164" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#64748B" text-anchor="middle" font-style="normal" letter-spacing="0">FP16</text>
+<text x="1361" y="164" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#64748B" text-anchor="middle" font-style="normal" letter-spacing="0">Quantized</text>
+<text x="1473" y="164" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#64748B" text-anchor="middle" font-style="normal" letter-spacing="0">Label</text>
+<rect x="1227" y="178" width="313" height="42" rx="7" fill="#FFFFFF" stroke="#D3DCE6" stroke-width="1.2" />
+<circle cx="1269" cy="199" r="11" fill="#DDEFE6"/>
+<path d="M1264,199 L1267.5,203 L1274.5,194.5" fill="none" stroke="#1E7356" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1361" cy="199" r="11" fill="#DDEFE6"/>
+<path d="M1356,199 L1359.5,203 L1366.5,194.5" fill="none" stroke="#1E7356" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1473" y="198" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="bold" fill="#1E7356" text-anchor="middle" font-style="normal" letter-spacing="0">y = 0</text>
+<text x="1473" y="214" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#1E7356" text-anchor="middle" font-style="normal" letter-spacing="0">preserved</text>
+<rect x="1227" y="228" width="313" height="42" rx="7" fill="#F7E3E1" stroke="#E9C3BF" stroke-width="1.2" />
+<circle cx="1269" cy="249" r="11" fill="#DDEFE6"/>
+<path d="M1264,249 L1267.5,253 L1274.5,244.5" fill="none" stroke="#1E7356" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1361" cy="249" r="11" fill="#F7E3E1"/>
+<path d="M1356.5,244.5 L1365.5,253.5 M1365.5,244.5 L1356.5,253.5" stroke="#B23A3A" stroke-width="2.4" stroke-linecap="round"/>
+<text x="1473" y="248" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="bold" fill="#B23A3A" text-anchor="middle" font-style="normal" letter-spacing="0">y = 1</text>
+<text x="1473" y="264" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#B23A3A" text-anchor="middle" font-style="normal" letter-spacing="0">degraded</text>
+<rect x="1227" y="278" width="313" height="42" rx="7" fill="#FFFFFF" stroke="#D3DCE6" stroke-width="1.2" />
+<circle cx="1269" cy="299" r="11" fill="#F7E3E1"/>
+<path d="M1264.5,294.5 L1273.5,303.5 M1273.5,294.5 L1264.5,303.5" stroke="#B23A3A" stroke-width="2.4" stroke-linecap="round"/>
+<text x="1361" y="304" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="normal" fill="#64748B" text-anchor="middle" font-style="normal" letter-spacing="0">any</text>
+<text x="1473" y="304" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="bold" fill="#64748B" text-anchor="middle" font-style="normal" letter-spacing="0">excluded</text>
+<text x="1239" y="362" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#64748B" text-anchor="start" font-style="italic" letter-spacing="0">Only FP16-correct prompts are kept, so</text>
+<text x="1239" y="380" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#64748B" text-anchor="start" font-style="italic" letter-spacing="0">y = 1 means quantization broke the answer,</text>
+<text x="1239" y="398" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#64748B" text-anchor="start" font-style="italic" letter-spacing="0">not that the prompt was simply hard.</text>
+<path d="M395,252.0 L425,252.0" fill="none" stroke="#2F5D8A" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#m_2F5D8A)"/>
+<path d="M784,252.0 L814,252.0" fill="none" stroke="#2F5D8A" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#m_2F5D8A)"/>
+<path d="M1173,252.0 L1203,252.0" fill="none" stroke="#2F5D8A" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#m_2F5D8A)"/>
+<rect x="20" y="482" width="1560" height="330" rx="16" fill="#F5F3FA" stroke="none" stroke-width="1.2" />
+<rect x="20" y="482" width="6" height="330" rx="3" fill="#5B4A9B"/>
+<text x="46" y="516" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#5B4A9B" text-anchor="start" font-style="normal" letter-spacing="1.6">B   LEARN  ·  PREDICT FRAGILITY FROM THE PROMPT</text>
+<rect x="44" y="534" width="650" height="260" rx="12" fill="#FFFFFF" stroke="#D3DCE6" stroke-width="1.2" filter="url(#shadow)"/>
+<circle cx="74" cy="566" r="15" fill="#5B4A9B"/>
+<text x="74" y="571.5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#fff" text-anchor="middle" font-style="normal" letter-spacing="0">5</text>
+<text x="100" y="572" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="19" font-weight="bold" fill="#1E293B" text-anchor="start" font-style="normal" letter-spacing="0">Prompt features</text>
+<line x1="62" y1="594" x2="676" y2="594" stroke="#D3DCE6" stroke-width="1"/>
+<rect x="62" y="608" width="302" height="172" rx="8" fill="#F5F3FA" stroke="none" stroke-width="1.2" />
+<text x="76" y="632" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#5B4A9B" text-anchor="start" font-style="normal" letter-spacing="0">Tier-0  ·  text only</text>
+<text x="76" y="651" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.8" font-weight="normal" fill="#64748B" text-anchor="start" font-style="normal" letter-spacing="0">47 features · CPU · ~1.1 ms · before inference</text>
+<circle cx="82" cy="672.0" r="3.2" fill="#5B4A9B"/>
+<text x="96" y="677.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" fill="#334155" text-anchor="start" font-style="normal" letter-spacing="0">Length and tokenization</text>
+<circle cx="82" cy="693.5" r="3.2" fill="#5B4A9B"/>
+<text x="96" y="698.5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" fill="#334155" text-anchor="start" font-style="normal" letter-spacing="0">Lexical diversity and entropy</text>
+<circle cx="82" cy="715.0" r="3.2" fill="#5B4A9B"/>
+<text x="96" y="720.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" fill="#334155" text-anchor="start" font-style="normal" letter-spacing="0">Numbers and operators</text>
+<circle cx="82" cy="736.5" r="3.2" fill="#5B4A9B"/>
+<text x="96" y="741.5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" fill="#334155" text-anchor="start" font-style="normal" letter-spacing="0">Clause, negation and comparison cues</text>
+<circle cx="82" cy="758.0" r="3.2" fill="#5B4A9B"/>
+<text x="96" y="763.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" fill="#334155" text-anchor="start" font-style="normal" letter-spacing="0">Readability and word surprisal</text>
+<rect x="374" y="608" width="302" height="172" rx="8" fill="#F5F3FA" stroke="none" stroke-width="1.2" />
+<text x="388" y="632" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#5B4A9B" text-anchor="start" font-style="normal" letter-spacing="0">Tier-1  ·  one prefill pass</text>
+<text x="388" y="651" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.8" font-weight="normal" fill="#64748B" text-anchor="start" font-style="normal" letter-spacing="0">26 features · no tokens generated</text>
+<circle cx="394" cy="672.0" r="3.2" fill="#5B4A9B"/>
+<text x="408" y="677.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" fill="#334155" text-anchor="start" font-style="normal" letter-spacing="0">KL / JS divergence, FP16 vs quantized</text>
+<circle cx="394" cy="693.5" r="3.2" fill="#5B4A9B"/>
+<text x="408" y="698.5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" fill="#334155" text-anchor="start" font-style="normal" letter-spacing="0">Top-1 agreement and logit margin</text>
+<circle cx="394" cy="715.0" r="3.2" fill="#5B4A9B"/>
+<text x="408" y="720.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" fill="#334155" text-anchor="start" font-style="normal" letter-spacing="0">Predictive entropy and its shift</text>
+<circle cx="394" cy="736.5" r="3.2" fill="#5B4A9B"/>
+<text x="408" y="741.5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" fill="#334155" text-anchor="start" font-style="normal" letter-spacing="0">Prompt NLL under each model</text>
+<circle cx="394" cy="758.0" r="3.2" fill="#5B4A9B"/>
+<text x="408" y="763.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" fill="#334155" text-anchor="start" font-style="normal" letter-spacing="0">Quantized-only confidence signals</text>
+<rect x="734" y="534" width="390" height="260" rx="12" fill="#FFFFFF" stroke="#D3DCE6" stroke-width="1.2" filter="url(#shadow)"/>
+<circle cx="764" cy="566" r="15" fill="#5B4A9B"/>
+<text x="764" y="571.5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#fff" text-anchor="middle" font-style="normal" letter-spacing="0">6</text>
+<text x="790" y="572" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="19" font-weight="bold" fill="#1E293B" text-anchor="start" font-style="normal" letter-spacing="0">Meta-classifier</text>
+<line x1="752" y1="594" x2="1106" y2="594" stroke="#D3DCE6" stroke-width="1"/>
+<rect x="754" y="610" width="350" height="54" rx="8" fill="#F5F3FA" stroke="none" stroke-width="1.2" />
+<text x="929.0" y="634" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#1E293B" text-anchor="middle" font-style="normal" letter-spacing="0">XGBoost  (class-weighted)</text>
+<text x="929.0" y="654" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" fill="#64748B" text-anchor="middle" font-style="normal" letter-spacing="0">outputs  p(degrade | prompt)</text>
+<circle cx="764" cy="689" r="3.2" fill="#5B4A9B"/>
+<text x="778" y="694" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="normal" fill="#334155" text-anchor="start" font-style="normal" letter-spacing="0">One router per precision + one pooled</text>
+<circle cx="764" cy="713" r="3.2" fill="#5B4A9B"/>
+<text x="778" y="718" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="normal" fill="#334155" text-anchor="start" font-style="normal" letter-spacing="0">Nested randomized hyper-parameter search</text>
+<circle cx="764" cy="737" r="3.2" fill="#5B4A9B"/>
+<text x="778" y="742" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="normal" fill="#334155" text-anchor="start" font-style="normal" letter-spacing="0">5 × 5 repeated stratified cross-validation</text>
+<circle cx="764" cy="761" r="3.2" fill="#5B4A9B"/>
+<text x="778" y="766" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="normal" fill="#334155" text-anchor="start" font-style="normal" letter-spacing="0">ROC-AUC with 95% CI, PR-AUC</text>
+<rect x="1164" y="534" width="392" height="260" rx="12" fill="#FFFFFF" stroke="#D3DCE6" stroke-width="1.2" filter="url(#shadow)"/>
+<circle cx="1194" cy="566" r="15" fill="#5B4A9B"/>
+<text x="1194" y="571.5" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#fff" text-anchor="middle" font-style="normal" letter-spacing="0">7</text>
+<text x="1220" y="572" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="19" font-weight="bold" fill="#1E293B" text-anchor="start" font-style="normal" letter-spacing="0">Confound controls</text>
+<line x1="1182" y1="594" x2="1538" y2="594" stroke="#D3DCE6" stroke-width="1"/>
+<text x="1192" y="624" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" fill="#64748B" text-anchor="start" font-style="normal" letter-spacing="0">The router must beat shortcuts, not just chance</text>
+<circle cx="1194" cy="653" r="3.2" fill="#5B4A9B"/>
+<text x="1208" y="658" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="normal" fill="#334155" text-anchor="start" font-style="normal" letter-spacing="0">Task-ID-only baseline</text>
+<circle cx="1370" cy="653" r="3.2" fill="#5B4A9B"/>
+<text x="1384" y="658" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="normal" fill="#334155" text-anchor="start" font-style="normal" letter-spacing="0">Length-only rule</text>
+<circle cx="1194" cy="681" r="3.2" fill="#5B4A9B"/>
+<text x="1208" y="686" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="normal" fill="#334155" text-anchor="start" font-style="normal" letter-spacing="0">Within-task AUC</text>
+<circle cx="1370" cy="681" r="3.2" fill="#5B4A9B"/>
+<text x="1384" y="686" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="normal" fill="#334155" text-anchor="start" font-style="normal" letter-spacing="0">Leave-one-task-out</text>
+<circle cx="1194" cy="709" r="3.2" fill="#5B4A9B"/>
+<text x="1208" y="714" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="normal" fill="#334155" text-anchor="start" font-style="normal" letter-spacing="0">FP16 self-repeat (negative control)</text>
+<circle cx="1194" cy="737" r="3.2" fill="#5B4A9B"/>
+<text x="1208" y="742" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="normal" fill="#334155" text-anchor="start" font-style="normal" letter-spacing="0">Cross-precision transfer</text>
+<path d="M700,664.0 L726,664.0" fill="none" stroke="#5B4A9B" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#m_5B4A9B)"/>
+<path d="M1130,664.0 L1156,664.0" fill="none" stroke="#5B4A9B" stroke-width="2.2" stroke-linejoin="round" stroke-dasharray="6 5" marker-end="url(#m_5B4A9B)"/>
+<path d="M216,434 L216,462 L600,462 L600,528" fill="none" stroke="#2F5D8A" stroke-width="2.4" stroke-linejoin="round" marker-end="url(#m_2F5D8A)"/>
+<rect x="366.5" y="449" width="83" height="24" rx="12" fill="#FFFFFF" stroke="#2F5D8A" stroke-width="1.2" />
+<text x="408" y="466" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#2F5D8A" text-anchor="middle" font-style="normal" letter-spacing="0">prompts</text>
+<path d="M1383.5,434 L1383.5,462 L929.0,462 L929.0,528" fill="none" stroke="#2F5D8A" stroke-width="2.4" stroke-linejoin="round" marker-end="url(#m_2F5D8A)"/>
+<rect x="1105.75" y="449" width="101" height="24" rx="12" fill="#FFFFFF" stroke="#2F5D8A" stroke-width="1.2" />
+<text x="1156.25" y="466" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#2F5D8A" text-anchor="middle" font-style="normal" letter-spacing="0">labels  y</text>
+<rect x="20" y="848" width="1560" height="260" rx="16" fill="#F0F7F3" stroke="none" stroke-width="1.2" />
+<rect x="20" y="848" width="6" height="260" rx="3" fill="#1E7356"/>
+<text x="46" y="882" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#1E7356" text-anchor="start" font-style="normal" letter-spacing="1.6">C   DEPLOY  ·  PRECISION ROUTER ON THE EDGE DEVICE</text>
+<rect x="52" y="952" width="190" height="72" rx="10" fill="#FFFFFF" stroke="#1E7356" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="147.0" y="985.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="bold" fill="#1E293B" text-anchor="middle" font-style="normal" letter-spacing="0">Incoming prompt</text>
+<text x="147.0" y="1005.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#64748B" text-anchor="middle" font-style="normal" letter-spacing="0">user request</text>
+<rect x="300" y="952" width="240" height="72" rx="10" fill="#FFFFFF" stroke="#1E7356" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="420.0" y="985.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="bold" fill="#1E293B" text-anchor="middle" font-style="normal" letter-spacing="0">Feature extraction</text>
+<text x="420.0" y="1005.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#64748B" text-anchor="middle" font-style="normal" letter-spacing="0">Tier-0 (+ optional Tier-1)</text>
+<rect x="598" y="952" width="236" height="72" rx="10" fill="#F5F3FA" stroke="#1E7356" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="716.0" y="985.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="bold" fill="#1E293B" text-anchor="middle" font-style="normal" letter-spacing="0">Trained router</text>
+<text x="716.0" y="1005.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#64748B" text-anchor="middle" font-style="normal" letter-spacing="0">risk score  p(degrade)</text>
+<path d="M246,988 L293,988" fill="none" stroke="#1E7356" stroke-width="2.4" stroke-linejoin="round" marker-end="url(#m_1E7356)"/>
+<path d="M544,988 L591,988" fill="none" stroke="#1E7356" stroke-width="2.4" stroke-linejoin="round" marker-end="url(#m_1E7356)"/>
+<path d="M968,934 L1046,988 L968,1042 L890,988 Z" fill="#FFFFFF" stroke="#1E7356" stroke-width="1.6" filter="url(#shadow)"/>
+<text x="968" y="994" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#1E293B" text-anchor="middle" font-style="normal" letter-spacing="0">p ≥ τ ?</text>
+<path d="M838,988 L883,988" fill="none" stroke="#1E7356" stroke-width="2.4" stroke-linejoin="round" marker-end="url(#m_1E7356)"/>
+<rect x="1150" y="888" width="392" height="62" rx="10" fill="#F7E3E1" stroke="#1E7356" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="1346.0" y="916.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="bold" fill="#B23A3A" text-anchor="middle" font-style="normal" letter-spacing="0">Escalate  →  FP16 / cloud model</text>
+<text x="1346.0" y="936.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#64748B" text-anchor="middle" font-style="normal" letter-spacing="0">risky prompt keeps full accuracy</text>
+<rect x="1150" y="1026" width="392" height="62" rx="10" fill="#DDEFE6" stroke="#1E7356" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="1346.0" y="1054.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="bold" fill="#1E7356" text-anchor="middle" font-style="normal" letter-spacing="0">Stay local  →  quantized edge model</text>
+<text x="1346.0" y="1074.0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#64748B" text-anchor="middle" font-style="normal" letter-spacing="0">cheap, low-memory, on-device</text>
+<path d="M968,934 L968,919 L1142,919" fill="none" stroke="#B23A3A" stroke-width="2.4" marker-end="url(#m_B23A3A)"/>
+<text x="1008" y="910" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#B23A3A" text-anchor="start" font-style="normal" letter-spacing="0">yes</text>
+<path d="M968,1042 L968,1057 L1142,1057" fill="none" stroke="#1E7356" stroke-width="2.4" marker-end="url(#m_1E7356)"/>
+<text x="1008" y="1077" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#1E7356" text-anchor="start" font-style="normal" letter-spacing="0">no</text>
+<text x="443" y="1058" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#64748B" text-anchor="middle" font-style="italic" letter-spacing="0">τ is set by the escalation budget, e.g. escalate the riskiest 15% of prompts</text>
+<path d="M929.0,796 L929.0,829 L716,829 L716,945" fill="none" stroke="#5B4A9B" stroke-width="2.4" stroke-linejoin="round" marker-end="url(#m_5B4A9B)"/>
+<rect x="749.5" y="816" width="146" height="24" rx="12" fill="#FFFFFF" stroke="#5B4A9B" stroke-width="1.2" />
+<text x="822.5" y="833" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#5B4A9B" text-anchor="middle" font-style="normal" letter-spacing="0">trained router</text>
+</svg>
