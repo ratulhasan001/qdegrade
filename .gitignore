@@ -1,0 +1,27 @@
+# Hugging Face caches and intermediate checkpoints written by the notebook
+hf_cache/
+shards/
+qdegrade/
+
+# Raw generations and prompt exports (contain benchmark text, including SST-2)
+runs/*__g*.parquet
+runs/prompts.parquet
+results/prompt_set.csv
+datasets/sst2.csv
+
+# Secrets
+.env
+*.token
+token
+
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS and editors
+.DS_Store
+.vscode/
+.idea/
